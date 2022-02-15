@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="{[[LNLANG IGNOREPAGESETTINGS=1 /]]}" xml:lang="{[[LNLANG IGNOREPAGESETTINGS=1 /]]}" >
+<head>
+<meta name="google-site-verification" content="9nL3-VJy9UqHWFMsYDGno-lPmhTq3VoulF3MGcOF7Sc" />
+<!-- EE / CH -->
+{[[HTMLFIVE /]]}
+<meta charset="utf-8" />
+<title>{[[HTMLTITLE /]]}</title>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+{-IF ($_SERVER['HTTP_USER_AGENT'] == 'MSIE')-}
+		/* CPR should only include X-UA-Compatible if MS IExplorer */
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+{-ENDIF-}
+<meta name="description" content="{[[METADESCRIPTION /]]}" />
+<meta name="keywords" content="{[[METAKEYWORDS /]]}" />
+<meta name="generator" content="www.CustomPublish.com" />
+{[[RSSLINK /]]}
+		{[[OGPMETA META='image' EMPTYMESSAGE='
+<meta name="og:image" content="" />
+' /]]}
+<!-- CSS -->
+<link type="text/css" rel="Stylesheet" media="all" href="/cpclass/js/jquery/lightgallery/css/lightgallery.min.css" />
+<link type="text/css" rel="Stylesheet" media="all" href="/cpclass/js/jquery/lightslider/css/lightslider.min.css" />
+<link type="text/css" rel="stylesheet" media="all" href="https://www.hemnes.kommune.no/getfile.php/3867593.2106.nmbk7japniumwn/webflow.css" />
+<link type="text/css" rel="stylesheet" media="all" href="/stylesheet.php/27385.2106.css" />
+<link rel="stylesheet" type="text/css" media="screen" href="/cpclass/js/jquery/ui/css/smoothness/jquery-ui.css" />
+<link href="https://www.hemnes.kommune.no/getfile.php/3867613.2106.jwbzqiiuzulmqw/Isloert_256.png" rel="shortcut icon" type="image/x-icon">
+<link href="https://www.hemnes.kommune.no/getfile.php/3867613.2106.jwbzqiiuzulmqw/Isloert_256.png" rel="apple-touch-icon">
+<script type="text/javascript" src="/cpclass/js/jquery/2017kommune/2017kommune.all.js"></script>
+<script src="/cpclass/js/jquery/ui/js/jquery-ui.js"></script>
+<script src="https://use.fontawesome.com/e4a9038a21.js"></script>
+<!-- Google font -->
+<link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+<link href="https://www.hemnes.kommune.no/getfile.php/3867591.2106.bnwip7jblss7ml/normalize.css" rel="stylesheet" type="text/css">
+{[[HOWTOSCALE ELEMENT='.scaletext' NODEFAULTSTYLE=1 /]]}
+
+<script type="text/javascript" src="/cpclass/run/sitefeedback/feedback.js.php?cat={[[CATID /]]}&id={[[ARTID /]]}&loc={[[URLTHISPAGE /]]}"></script>
+
+<!-- Google font 
+<script src="https://www.hemnes.kommune.no/getfile.php/3891700.2106.7ztwjiqpjnsz7s/webflow.js"></script>-->
+
+<meta name="google-site-verification" content="9nL3-VJy9UqHWFMsYDGno-lPmhTq3VoulF3MGcOF7Sc" />
+
+</head>
+<body class="{[[MAINCLASS /]]}">
+</a>
+<a class="show-for-sr show-on-focus" href="#mainmenu">Hopp til hovedmenyen på siden</a> <a class="show-for-sr show-on-focus" href="#main">Hopp til hovedinnholdet på siden</a>
+<div id="page">
+
+<!-- Seksjon for nyheter i topp--> 
+
+{[[ARTICLELIST
+					CAT=464676
+					LIMIT=3
+					PAGEBAR=0
+					PREFIX='
+<div class="notifications">'
+  POSTFIX='</div>
+'
+				]]}
+<div class="notificationblock pr {{CLASS /}}" id="notification{{ID /}}"> 
+  <script> if( $.cookie('notification{{ID /}}') === 'closed' ){ $('#notification{{ID /}}').hide(); } </script>
+  <div class="row expanded">
+    <div class="textwrap columns"> <i class="material-icons md-light notification">error_outline</i>Publisert: {{DATE LOCALEFORMAT='%d. %B <span class="notification-datetime">kl. %H:%M</span>' PREFIX='
+      <div class="notification-date dib">' POSTFIX='</div>
+      ' /}}
+      {{HEADLINE PREFIX='
+      <h3 class="dib notification-headline">' POSTFIX='</h3>
+      ' /}}
+      {{INGRESS HIDEEDITLINK PREFIX='<span class="dib">' POSTFIX='</span>' /}}
+      {{LINK ACLASS='morebtn inverted' /}} <a href="#" onclick="$.cookie('notification{{ID /}}', 'closed', { path: '/' }); $('#notification{{ID /}}').hide(); $(window).trigger('resize.px.parallax'); return false;" class="pa closebtn" title="Fjern"><i class="material-icons">clear</i></a> </div>
+  </div>
+</div>
+{[[/ARTICLELIST]]}
+<div class="navbar w-nav" data-animation="default" data-collapse="medium" data-duration="400">
+  <div class="w-container"><a class="w-nav-brand" href="/index.php?cat=563591"><img class="imagecontainer" src="https://www.hemnes.kommune.no/getfile.php/3891493.2106.mnqukauzjzilsb/kommunevapen.svg" width="200"></a>
+    <nav class="w-nav-menu" role="navigation" style="transform: translateY(0px) translateX(0px);">
+<a class="new-link w-nav-link" href="https://www.hemnes.kommune.no/" style="max-width: 728px;">TIL HOVEDSIDE</a>
+<a class="new-link w-nav-link" href="https://www.hemnes.kommune.no/index.php?cat=464037" style="max-width: 728px;"></a>
+<a class="new-link w-nav-link" href="https://www.hemnes.kommune.no/index.php?cat=426463" style="max-width: 728px;"><i class="fa fa-phone" aria-hidden="true"></i>Telefonliste</a></nav>
+ 
+   <div class="w-nav-button">
+      <div class="w-icon-nav-menu"></div>
+    </div>
+  </div>
+  <div class="w-nav-overlay" data-wf-ignore="" style="display: none;"></div>
+</div>
+<header id="header">
+  <div class="row expanded pr"> </div>
+  </div>
+  {[[PATH IF (!$ldefcat)&&(!$checkout) /IF
+  DELIMITER='<span class="pathdelimiter">/</span>'
+  PREFIX='
+  <div id="path">
+    <div class="row expanded">'
+      POSTFIX='</div>
+  </div>
+  '
+  /]]} </header>
+
+
+
+<!-- end header -->
+
+<div id="content" class="{-IF (!$ldefcat)-}row{-ENDIF-}"> {[[z:MENU LEVELBASE=0 ELEMENTCLASS='menu subpagemenu' IF (!$ldefcat) /IF SECTIONAWARE=1
+  PREFIX
+  <div class="subpagemenucontainer large-3 medium-4 small-12 columns">
+    <div class="submenucontainerinner"> {[[PAGETITLE PREFIX='
+      <h3 class="caption">' POSTFIX='<span class="showmoremobile fr" onclick="toggleSubPageMenu(this);">Vis mer</span></h3>
+      ' /]]}
+      /PREFIX
+      
+      POSTFIX='</div>
+  </div>
+  '
+  /]]}
+  <main id="main" class="main {-IF (!$checkout&&!$ldefcat)-}large-9 medium-8 small-12 columns{-ENDIF-}" lang="{[[LNLANG /]]}"> {[[ARTICLELIST
+    CAT=123
+    CATNAMEINBRANCH='Melding'
+    LIMIT=1
+    PAGEBAR=0
+    PREFIX='
+    <div class="pagemessage row">'
+      POSTFIX='</div>
+    '
+    ]]}
+    
+	  
+	  <div class="messageblock tac small-12 columns"> <span class="messagenotice">Melding</span>
+      <h2 class="Messagetitle"> <a href="#" onclick="$(this).parent().parent().find('.messagecontent').slideToggle('fast'); return false;"> {{HEADLINE /}} </a> </h2>
+      <div class="messagecontent" style="display: none;"> {{DATE LOCALEFORMAT='%d. %B' PREFIX='
+        <div class="date">Oppdatert ' POSTFIX='</div>
+        ' /}}
+        {{INGRESS PREFIX='
+        <div class="messagetext">' POSTFIX='</div>
+        ' /}} </div>
+      <a href="#" class="morebtn" onclick="$(this).parent().find('.messagecontent').slideToggle('fast'); return false;">Vis/skjul info</a> </div>
+    {[[/ARTICLELIST]]}
+    #MAIN# </main>
+
+
+
+
+
+
+
+
+  <!-- end main --> 
+</div>
+<!-- end content -->
+
+<div class="footer seksjon">
+  <div class="div-block-15"></div>
+  <div class="w-container">
+    <div class="w-row">
+      <div class="w-col w-col-4">
+        <div class="footer-text-bright"> {[[SIDEBAR LOCATION=60 /]]}</div>
+      </div>
+      <div class="w-col w-col-4">
+        <div class="footer-text-bright"> 
+{[[SIDEBAR LOCATION=61 /]]}</div>
+      </div>
+      <div class="w-col w-col-4">
+        <div class="footer-text-bright"> {[[SIDEBAR LOCATION=62 /]]}</div>
+      </div>
+    </div>
+  </div>
+</div>
+<footer id="footer">
+  <div class="section-gullstripe"></div>
+
+  <!-- footercontent end --> 
+  
+</footer>
+
+<!-- end footer -->
+
+</div>
+
+<!-- end page --> 
+ 
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-102666031-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+<script>
+(function(w,d,s,g,js,fs){
+  g=w.gapi||(w.gapi={});g.analytics={q:[],ready:function(f){this.q.push(f);}};
+  js=d.createElement(s);fs=d.getElementsByTagName(s)[0];
+  js.src='https://apis.google.com/js/platform.js';
+  fs.parentNode.insertBefore(js,fs);js.onload=function(){g.load('analytics');};
+}(window,document,'script'));
+</script>
+
+
+</body>
+<style>
+#cookieinfobar{
+color:white;
+}
+</style
+></html>
